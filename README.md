@@ -4,7 +4,7 @@ Laravel Social Media Website built with Inertia Vue.js.
 
 ## Installation
 
-#### 2. Run `composer install`
+#### Run `composer install`
 Navigate into project folder using terminal and run
 
 ```bash
@@ -16,13 +16,13 @@ docker run --rm \
     composer install --ignore-platform-reqs
 ```
 
-#### 3. Copy `.env.example` into `.env`
+#### Copy `.env.example` into `.env`
 
 ```bash
 cp .env.example .env
 ```
 
-#### 4. Start the project in detached mode
+#### Start the project in detached mode
 
 ```bash
 ./vendor/bin/sail up -d
@@ -33,13 +33,13 @@ Access to the docker container
 ./vendor/bin/sail bash
 ```
 
-#### 5. Set encryption key
+#### Set encryption key
 
 ```bash
 php artisan key:generate --ansi
 ```
 
-#### 6. Run migrations
+#### Run migrations
 
 ```bash
 php artisan migrate
